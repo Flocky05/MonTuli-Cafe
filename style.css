@@ -15,7 +15,10 @@ body{
     border-radius: 5px;
     margin-top: 20px;
 }
-.btn:
+.btn:hover{
+padding:7px 12px;
+transition: width .35s ease-in-out;
+}
 .navbar{
     padding: 10px;
     display: flex;

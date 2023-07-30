@@ -7,6 +7,15 @@ body{
     background-color: rgb(45, 2, 45);
     color: white;
 }
+.btn{
+    background-color: darkorange;
+    padding: 5px 10px;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.btn:
 .navbar{
     padding: 10px;
     display: flex;
@@ -19,4 +28,13 @@ body{
 }
 .navbar-right img{
     filter: invert();
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.header-text{
+    width: 50%;
+    
 }

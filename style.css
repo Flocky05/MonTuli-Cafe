@@ -28,6 +28,7 @@ transition: width .35s ease-in-out;
     display: flex;
     justify-content: space-around;
     width: 50%;
+    padding: 20px;
 }
 .navbar-right img{
     filter: invert();
@@ -40,4 +41,14 @@ transition: width .35s ease-in-out;
 .header-text{
     width: 50%;
     
+}
+@media (max-width:576px){
+    .container{
+        flex-direction: column-reverse;
+    }
+    .header-text{
+        width: 100%;
+        text-align: center;
+        padding: 5%;
+    }
 }

@@ -4,8 +4,8 @@
     box-sizing: border-box;
 }
 body{
-    background-color: rgb(45, 2, 45);
-    color: white;
+    background-color: gainsboro;
+    
 }
 .btn{
     background-color: darkorange;
@@ -30,18 +30,38 @@ transition: width .35s ease-in-out;
     width: 50%;
     padding: 20px;
 }
-.navbar-right img{
-    filter: invert();
-}
+
 .container{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    background-color: rgb(45, 2, 45);
+    color: white;
 }
 .header-text{
     width: 50%;
     
 }
+/* features section start  */
+.features-section{
+    margin: 30px;
+}
+.card-container{
+    display: flex;
+    justify-content: space-around;
+}
+.card{
+    width: 30%;
+    height: 200px;
+    background-color: whitesmoke;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+/* features section end */
 @media (max-width:576px){
     .container{
         flex-direction: column-reverse;
@@ -49,11 +69,12 @@ transition: width .35s ease-in-out;
     .header-text{
         width: 100%;
         text-align: center;
+        margin: 0;
         padding: 5%;
     }
     .header-img img{
-        padding: 0;
-        margin: 0;
+        display: block;
+        margin: auto;
     }
 }
 @media (max-width:720px){

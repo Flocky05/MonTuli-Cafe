@@ -51,4 +51,15 @@ transition: width .35s ease-in-out;
         text-align: center;
         padding: 5%;
     }
+    .header-img img{
+        padding: 0;
+        margin: 0;
+    }
+}
+@media (max-width:720px){
+    .header-text{
+        width: 70%;
+        text-align: center;
+        padding: 5%;
+    }
 }

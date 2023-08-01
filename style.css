@@ -44,7 +44,8 @@ transition: width .35s ease-in-out;
 }
 /* features section start  */
 .features-section{
-    margin: 30px;
+    padding: 30px;
+    background-color: rgb(251, 241, 243);
 }
 .card-container{
     display: flex;
@@ -60,6 +61,13 @@ transition: width .35s ease-in-out;
     overflow: hidden;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
 }
+
+
+/* galary section start  */
+.galary-container{
+    text-align: center;
+}
+/* galary section end */
 
 /* features section end */
 @media (max-width:576px){

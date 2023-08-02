@@ -103,7 +103,7 @@ transition: width .35s ease-in-out;
         grid-template-columns: 1fr;
     }
 }
-@media (max-width:850px){
+@media (max-width:850px) and (min-width:577px){
     .header-text{
         width: 70%;
         text-align: center;
@@ -111,6 +111,10 @@ transition: width .35s ease-in-out;
     }
     .card{
         width: 80%;
+    }
+    .galary{
+        gap: 15px;
+        grid-template-columns:repeat(2,1fr);
     }
 
 }

@@ -50,18 +50,16 @@ transition: width .35s ease-in-out;
 .card-container{
     display: flex;
     justify-content: space-around;
-}
-.card{
-    width: 30%;
-    height: 200px;
-    background-color: whitesmoke;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    padding: 10px;
-    overflow: hidden;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    flex-wrap: wrap;
 }
 
+.card{
+    width: 40%;
+    padding: 30px;
+    margin: 20px auto;
+    box-shadow: 0 10px 35px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
 
 /* galary section start  */
 .galary-container{

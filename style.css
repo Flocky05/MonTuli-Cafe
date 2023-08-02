@@ -90,12 +90,23 @@ transition: width .35s ease-in-out;
     grid-template-columns: repeat(2,1fr);
     
 }
+.contact img{
+    margin-top: 20px;
+    width: 80%;
+    height: 80%;
+
+}
 .info-contact{
+    
    display: flex;
    flex-direction: column;
    justify-content: center;
 }
 .info-contact >input{
+    margin: 10px;
+    border-radius: 5px;
+}
+.info-contact >textarea{
     margin: 10px;
     border-radius: 5px;
 }
@@ -119,6 +130,9 @@ transition: width .35s ease-in-out;
         width: 90%;
     }
     .galary{
+        grid-template-columns: 1fr;
+    }
+    .contact{
         grid-template-columns: 1fr;
     }
 }

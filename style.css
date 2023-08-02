@@ -81,6 +81,25 @@ transition: width .35s ease-in-out;
 }
 /* galary section end */
 
+/* contact section start  */
+.contact-container{
+    text-align: center;
+}
+.contact{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    
+}
+.info-contact{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+.info-contact >input{
+    margin: 10px;
+    border-radius: 5px;
+}
+/* contact section end */
 
 @media (max-width:576px){
     .container{

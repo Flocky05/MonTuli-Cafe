@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    background-color: gainsboro;
+    background-image: linear-gradient(rgb(241, 246, 218), rgb(222, 242, 250));
     
 }
 .btn{
@@ -51,6 +51,7 @@ transition: width .35s ease-in-out;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+    text-align: center;
 }
 
 .card{
@@ -60,14 +61,27 @@ transition: width .35s ease-in-out;
     box-shadow: 0 10px 35px rgba(0, 0, 0, 0.2);
     border-radius: 10px;
 }
-
+/* features section end */
 /* galary section start  */
 .galary-container{
     text-align: center;
+    margin: 40px;
+}
+.galary{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:30px;
+    /* grid-template-rows: repeat(3,1fr); */
+}
+.galary img{
+    border: 2px solid gray;
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
 }
 /* galary section end */
 
-/* features section end */
+
 @media (max-width:576px){
     .container{
         flex-direction: column-reverse;
@@ -85,6 +99,9 @@ transition: width .35s ease-in-out;
     .card{
         width: 90%;
     }
+    .galary{
+        grid-template-columns: 1fr;
+    }
 }
 @media (max-width:850px){
     .header-text{
@@ -95,4 +112,5 @@ transition: width .35s ease-in-out;
     .card{
         width: 80%;
     }
+
 }

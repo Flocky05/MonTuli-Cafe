@@ -112,6 +112,45 @@ transition: width .35s ease-in-out;
 }
 /* contact section end */
 
+/* footer section start  */
+.footer-container{
+    padding: 40px;
+    background-color:black;
+    color: azure;
+    
+}
+.footer-top{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.footer-bootm{
+    padding: 2%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    align-items: center;
+}
+
+.footer-icon img{
+    width: 30px;
+    height: 30px;
+    filter: invert();
+    margin: 5px;
+    
+}
+.menu{
+    display: flex;
+    gap: 5%;
+    align-items: center;
+    
+}
+.footer-location{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+/* footer section end */
 @media (max-width:576px){
     .container{
         flex-direction: column-reverse;

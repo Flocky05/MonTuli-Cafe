@@ -82,11 +82,17 @@ transition: width .35s ease-in-out;
         display: block;
         margin: auto;
     }
+    .card{
+        width: 90%;
+    }
 }
-@media (max-width:720px){
+@media (max-width:850px){
     .header-text{
         width: 70%;
         text-align: center;
         padding: 5%;
+    }
+    .card{
+        width: 80%;
     }
 }
